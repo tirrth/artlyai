@@ -134,6 +134,6 @@ Werkzeug==2.3.3
 wrapt==1.14.1
 xmltodict==0.13.0
 yarl==1.9.2
-Cython==0.29.34
+Cython==0.29.24
 youtokentome==1.0.3
 zipp==3.15.0
