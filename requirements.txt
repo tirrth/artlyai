@@ -135,5 +135,5 @@ wrapt==1.14.1
 xmltodict==0.13.0
 yarl==1.9.2
 Cython==0.29.34
-youtokentome==1.0.6
+# youtokentome==1.0.6
 zipp==3.15.0
