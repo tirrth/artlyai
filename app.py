@@ -1,11 +1,13 @@
 import os
 import json
 import requests
+from os import environ
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = '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'  # Make sure to set this environment variable or replace it with your actual API key
+OPENAI_API_KEY = environ.get('OPENAI_API_KEY')  # Make sure to set this environment variable or replace it with your actual API key
+print(OPENAI_API_KEY)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
